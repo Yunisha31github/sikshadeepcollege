@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+        
+    }
+
+.page1{
+    height: 205vh;
+    width: auto;
+    
+}
+.page2{
+    height: 1cm;
+    width: 35.7cm;
+    background: darkblue;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 0px 0px;   
+}
+.page2 ul{
+    list-style: none;
+}
+.page2 a{
+    text-decoration: none;
+}
+
+.icons{
+    float: right;
+    margin-right: 50px;
+    position: relative;
+    top: -8px;
+    height: 0.75cm;
+    top: -18px;
+    
+}
+.icons li a{
+    width: 50px;
+    display: block;
+    color:#fff;
+    padding: 3px 15px;
+    text-align: center;
+    
+}
+.icons li{
+    display: inline-block;
+}
+.icons li:hover{
+    background: #669900;
+}
+
+.page3{
+    height: 3.2cm;
+    width:35.7cm;
+    background-color: lightgray;
+    
+}
+.page3 img{
+        margin-top: 0.45%;
+        height: 110px;
+        width:auto;
+        margin-left: 10%;
+}
+.page3 h1{
+    padding-left: 19%;
+margin-top: -6ch;
+}
+
+    
+.one{
+    display: inline-block;
+    float: right;
+    list-style: none;
+    
+
+}
+.two{
+    display: inline-block;
+    float: right;
+    list-style: none; 
+}
+.ms-1{
+    position: relative;
+    margin-top: -6ch;
+    margin-right: 0.5in;
+    
+}
+.ms-2{
+    position: relative;
+    margin-top:-6ch ;
+    margin-right: 2.3in;
+}
+
+.page4{
+    height: 2cm;
+    width: 35.7cm;
+    background: #18181c;
+    z-index: 100;
+}
+.page4 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    padding-left: 6%;
+}
+.page4 ul li{
+    float: left;
+    margin-top: 15px;
+}
+.page4 ul li a{
+        width: 150px;
+        color: wheat;
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        font-family: Century Gothic ;
+        font-weight: bold;
+}
+.page4 li:hover{
+    background: #669900;
+}
+.page4 ul li ul{
+    background: #000033;
+}
+.page4 ul li ul li{
+    float: none;
+    position: relative;
+    left: -1cm;
+     
+}
+.page4 ul li ul{
+    display: none;
+}
+.page4 ul li:hover ul{
+    display: block;
+}
+.page4 ul ul{
+    position: absolute;
+    top: 60px;
+}
+.page5{
+    height: 12cm;
+    width: 35.7cm;
+    
+}
+.page5 img{
+    height: 80.5vh;
+    width: 209.5vh;
+}
+.page5 h2{
+    color: darkblue;
+    width: 8cm;
+    position: relative;
+    top: -6.5cm;
+    left: 9cm;
+}
+.page5 h1{
+    color:rgb(1, 1, 30);
+    font-size: 40px;
+    position: relative;
+    top: -7cm;
+    left: 7cm;
+    width: 12cm;
+    
+}
+.page5 button{
+    position: relative;
+     cursor: pointer;
+     color:darkgreen ;
+     font-weight: bolder;
+     position: relative;
+     top: -6cm;
+     left: 9cm;
+}
+.page5 button:hover{
+    background: #8181b5;
+}
+.page6{
+    position: relative;
+    top: 2cm;
+    height: 7cm;
+    width: 35.7cm;
+    background-color:lightgoldenrodyellow;
+}
+.page6 h1{
+    color: #000033;
+    width: 14cm;
+    position: relative;
+    left: 8cm;
+}
+.page6 p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    color: blueviolet;
+    position: relative;
+    left: 0.5cm;
+    width:35cm ;
+    top: 0.5cm;
+     text-align: left;
+    
+}
+.page7{
+    height: 6cm;
+    width:35.7cm ;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+footer{
+    position: absolute;
+
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0px 30px;
+    border-top-left-radius: 13px;
+    line-height: 20px;
+}
+.col{
+    flex-basis: 25%;
+
+}
+h3{
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 0.5cm;
+}
+h4{
+    text-align: left;
+    position: relative;
+    top: -60px;
+    left: 0.2cm;
+}
+iframe{
+    width: 50%;
+    height: 200px;
+    filter: invert(100%);
+    position: relative;
+    left: 0.5px;
+    top: -50px;
+}
+.map{
+    text-align: right;
+    color: #fff;
+    position: relative;
+    left: 970px;
+    top: -100px;
+}
